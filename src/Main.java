@@ -1,3 +1,5 @@
+import Repo.Rp;
+
 import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
@@ -6,6 +8,7 @@ import java.util.stream.Collectors;
 
 
 public class Main {
+
     public static void main(String[] args) {
          String str = "manish kumar panday";
 
@@ -13,8 +16,6 @@ public class Main {
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         System.out.println("My name is Aniket");
-
-
-
     }
+
 }

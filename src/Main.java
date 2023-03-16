@@ -12,7 +12,7 @@ public class Main {
         Map<Character, Long> collect = str.chars().mapToObj(c -> (char) c).filter(Character::isLetter)
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
-
+        System.out.println("My name is Aniket");
 
 
 
